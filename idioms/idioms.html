@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фразеологизмы</title>
+    <link rel="stylesheet" href="idioms.css">
+    <link rel="stylesheet" href="/common.css">
+    <link rel="stylesheet" href="/media.css">
+</head>
+<body class="body-hide">
+    <header>
+        <span>
+            <div id="start">
+                <svg xmlns="http://www.w3.org/2000/svg" id="showHide" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true">
+                    <path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path>
+                </svg>
+            </div>
+        </span>
+        <div id="mainTitle">
+            <h1>IDIOMS</h1>
+        </div>
+        <div></div>
+    </header>
+
+    <aside class="aside-hide" id="aside">
+        <a href="/index.html" class="links">Главная</a>
+        <a href="/dictionary/dictionary.html" class="links">Словарь</a>
+    </aside>
+
+    <main>
+        <div id="containerIdioms">
+            <div id="displayIdioms">
+                <h2>Добавление фразеологизмов</h2>
+                <form id="formForIdioms">
+                    
+                    <div class="idiom">
+                        <label class="labelForItem" for="idiom"><strong>Фразеологизм:</strong></label>
+                        <input class="item" type="text" name="idiom" id="idiom" placeholder="Введите фразеологизм">
+                    </div>
+                
+                    <div class="idiom">
+                        <label class="labelForItem"  for="translate"><strong>Дословный перевод:</strong></label>
+                        <input class="item" type="text" name="translate" id="translate" placeholder="Введите перевод">
+                    </div>
+
+
+                    <div class="idiom">
+                        <label class="labelForItem"  for="meaning"><strong>Значение:</strong></label>
+                        <input class="item" type="text" name="meaning" id="meaning" placeholder="Введите значение">
+                    </div>
+                    
+                    <div class="idiom">
+                        <label class="labelForItem"  for="example"><strong>Пример:</strong></label>
+                        <input class="item" type="text" name="example" id="example" placeholder="Введите пример">
+                    </div>
+                
+                    <div class="idiom">
+                        <label class="labelForItem"  for="exampleTranslate"><strong>Перевод примера:</strong></label>
+                        <input class="item" type="text" name="exampleTranslate" id="exampleTranslate" placeholder="Введите перевод примера">
+                    </div>
+                
+                    <div class="idiom-button">
+                        <button class="addButton" id="addIdiomsButton">Добавить</button>
+                    </div>
+                    
+                </form>
+                
+            </div>
+        </div>
+       
+
+        
+        <div id="dictionary">
+
+        </div>
+
+    </main>
+    <script src="/script.js"></script>
+    <script src="./idioms.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Словарь</title>
+    <link rel="stylesheet" href="./dictionary.css">
+    <link rel="stylesheet" href="/common.css">
+    <link rel="stylesheet" href="/media.css">
+</head>
+<body class="body-hide">
+    <header>
+        <span>
+            <div id="start">
+                <svg xmlns="http://www.w3.org/2000/svg" id="showHide" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true">
+                    <path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path>
+                </svg>
+            </div>
+        </span>
+        <div id="mainTitle"><h1>DICTIONARY</h1></div>
+        <div></div>
+    </header>
+
+    <aside class="aside-hide" id="aside">
+        <a href="/index.html" class="links">Главная</a>
+        <a href="/idioms/idioms.html" class="links">Фразеологизмы</a>        
+    </aside>
+
+    <main>
+        <div id="inputWords">
+            <div id="placeForWords">
+                <h2>Добавление слов</h2>
+                <form id="formForInputs">
+                    <label for="word"><strong>Слово:</strong></label>
+                    <input type="text" name="word" id="word" placeholder="Введите слово" pattern="[A-Za-zА-Яа-яЁё\s]+" title="Введите только слова (без цифр и символов)">
+                    <label for="translation"><strong>Перевод:</strong></label>
+                    <input type="text" name="translation" id="translation" placeholder="Введите перевод" pattern="[A-Za-zА-Яа-яЁё\s]+" title="Введите только слова (без цифр и символов)">
+
+                    <button id="addWords">Добавить</button>
+                </form>
+            </div>
+        </div>
+       
+
+        
+        <div id="dictionary">
+
+        </div>
+
+    </main>
+    <script src="/script.js"></script>
+    <script src="/words.js"></script>
+    <script src="./dictionary.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,85 @@
+#containerIdioms {
+    margin: 20px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px rgba(121, 107, 29, 0.7);
+    padding: 20px;
+    display: grid;
+    place-items: center;
+    
+}
+
+
+#formForIdioms {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 10px;
+}
+
+/* Временный */
+
+input[type=text] {
+    padding: 5px;
+}
+
+
+#addIdiomsButton {
+    margin-top: 10px 
+}
+
+/* стили для input */
+
+.item {
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    border-bottom: 2px solid;
+    border-radius: 5px;
+    outline: none;
+    width: 400px;
+}
+
+.item:focus {
+    border-color: blue;
+}
+
+/* Стили для label */
+
+.labelForItem {
+    margin-bottom: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: moccasin;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    width: fit-content;
+    text-align: center;
+}
+
+/* Стиль для каждого блока */
+
+.idiom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    padding: 15px;
+
+}
+
+/* Стиль для кнопки */
+
+
+
+.addButton {
+    border: none;
+    width: 140px;
+    padding: 15px;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    background-color: silver;
+}
+
+.addButton:hover {
+    background-color: rgb(165, 165, 165);
+}

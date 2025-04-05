@@ -1,0 +1,90 @@
+/* Стили для добавления слов */
+
+#inputWords {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px rgba(121, 107, 29, 0.7);
+    padding: 20px;
+
+}
+
+/* Стили для рамки добавления слов */
+
+#placeForWords {
+    width: 300px;
+    box-shadow: 1px 1px 5px rgba(104, 30, 146, 0.7);
+    height: 300px;
+    border-radius: 20px;
+}
+
+/* Стили для формы */
+
+#formForInputs {
+    display: grid;
+    margin: 20px;
+    gap: 10px;
+    place-items: center;
+    font-size: 17px;
+}
+
+/* Стили для input */
+
+#word, #translation {
+    border-radius: 10px;
+    padding: 7px;
+    border: 1px solid;
+    width: 200px;
+}
+
+/* Кнопка добавления слов */
+
+#addWords {
+    margin: 20px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(49, 138, 240, 0.7);
+    transition: transform 0.2s ease-in-out;
+    box-shadow: 0px 0px 10px rgba(7, 19, 26, 0.7);
+}
+
+
+#addWords:hover {
+    transform: scale(1.05);
+    background-color: rgba(29, 102, 185, 0.7);
+    box-shadow: 0px 0px 15px rgba(7, 19, 26, 0.7);
+}
+
+#addWords:active {
+    transform: scale(0.95);
+}
+
+
+/* Стили для блока словарь */
+
+#dictionary {
+    margin: 20px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px rgba(121, 107, 29, 0.7);
+    padding: 20px;
+}
+
+/* Стили для отдельных блоков со словом и переводом */
+
+.wordTranslate {
+    display: grid;
+    height: 50px;
+    padding-left: 10px;
+    border-top: 1px solid rgb(182, 182, 182); 
+    margin: 10px 20px;
+    align-items: center;
+    text-align: start;
+}
+
+
+
+
