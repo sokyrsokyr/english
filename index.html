@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vocabulary App</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="./media.css">
+</head>
+<body class="body-hide">
+    <header>
+        <span>
+            <div id="start">
+                <svg xmlns="http://www.w3.org/2000/svg" id="showHide" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true">
+                    <path d="M21 6H3V5h18v1zm0 5H3v1h18v-1zm0 6H3v1h18v-1z"></path>
+                </svg>
+            </div>
+        </span>
+        <div id="mainTitle"><h1>VOCABULARY</h1></div>
+        <div></div>
+    </header>
+
+    <aside class="aside-hide" id="aside">
+        <a href="/dictionary/dictionary.html" class="links">Словарь</a>
+        <a href="/idioms/idioms.html" class="links">Фразеологизмы</a>
+    </aside>
+
+    <main>
+            
+        </div>
+        <div id="sentences">
+            <h2>Составление предложений со словами</h2>
+            <div id="placeForSentence">
+                <textarea name="inputText" id="inputText"></textarea>
+            </div>
+            <button id="showWords">Ввести количество слов</button>
+        </div>
+
+        <div id="idiom">
+            <h2>Составление предложений с фразеологизмом</h2>
+            <div id="placeForIdiom">
+                <textarea name="inputText" id="inputText2"></textarea>
+            </div>
+            <button id="showIdiom">Показать фразеологизм</button>
+        </div>
+    </main>
+
+    <script src="./script.js"></script>
+    <script src="./words.js"></script>
+    <script src="./idioms/idioms.js"></script>
+
+
+</body>
+</html>

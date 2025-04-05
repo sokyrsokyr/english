@@ -1,0 +1,102 @@
+
+/* Стили для скрытого состояния body */
+.body-hide {
+    margin: 0;
+    display: grid;
+    grid-template-areas: "header header" "main main";
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px auto;
+    height: 100vh;
+}
+
+/* Стили для отображения aside */
+.body-show {
+    margin: 0;
+    display: grid;
+    grid-template-areas: "header header" "aside main";
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 50px auto;
+    height: 100vh;
+}
+
+
+
+/* Стили шапки */
+header {
+    grid-area: header;
+    font-size: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid;
+}
+
+/* Скрытие боковой панели */
+.aside-hide {
+    display: none;
+}
+
+/* Отображение боковой панели */
+.aside-show {
+    display: flex;
+    flex-direction: column;
+    grid-area: aside;
+    border-right: 1px solid;
+    text-align: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Основная часть */
+main {
+    grid-area: main;
+    text-align: center;
+}
+
+
+/* Заголовок */
+#mainTitle {
+    font-size: 15px;
+    font-family: cursive;
+    font-style: italic;
+}
+
+/* Гамбургер кнопка */
+#showHide {
+    margin: 10px;
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 100px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+#showHide:hover {
+    background-color: darkgrey;
+    cursor: pointer;
+}
+
+/* Стили для кнопок */
+
+.links {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0 10px;
+}
+
+.links:hover {
+    
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(20, 62, 70)
+
+
+}

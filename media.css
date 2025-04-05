@@ -1,0 +1,28 @@
+@media (max-width: 430px ) {
+    #inputText, #inputText2 {
+        width: 80%;
+        height: 150px;
+    }
+}
+
+@media (max-width: 768px ) {
+    #inputText, #inputText2 {
+        width: 80%;
+        height: 150px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #inputText, #inputText2 {
+        width: 80%;
+        height: 150px;
+    }
+}
+
+
+
+@media (max-width: 540px ) {
+    .item {
+        width: 50%;
+    }
+}
